@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+v-for="${1:items} in ${2:todos}"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>v-for</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue v-for:"items in todos"</description>
+  <scope>text.html, source.vue, source.js</scope>
+</snippet>

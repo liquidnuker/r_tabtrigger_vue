@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+v-else-if="${1:type === 'B'}"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>v-elseif</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue v-else-if</description>
+  <scope>text.html, source.vue, source.js</scope>
+</snippet>

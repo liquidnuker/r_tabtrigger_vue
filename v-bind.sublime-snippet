@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+v-bind:${1:href_arg}="${2:url}"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>v-bind</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue v-bind</description>
+  <scope>text.html, source.vue, source.js</scope>
+</snippet>
