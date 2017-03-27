@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-v-bind:${1:href_arg}="${2:url}"
+v-bind="${1:}"
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>v-bind</tabTrigger>
