@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+new Vue({
+  el: '${1:#app}',
+  ${2:router,}
+  render: h => h(${3:routerLinks})
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-template-render</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue render: h(app)</description>
+  <scope>source.js, source.vue</scope>
+</snippet>

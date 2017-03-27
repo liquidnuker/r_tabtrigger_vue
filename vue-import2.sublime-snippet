@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import ${1:} from '${2:}'
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-import2</tabTrigger>
+  <description>vue import "" from "./"</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, source.vue</scope>
+</snippet>

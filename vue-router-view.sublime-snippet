@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<router-link to="/">default</router-link>
+<router-view></router-view>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-router-view</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue router-view/link</description>
+  <scope>source.js, source.vue</scope>
+</snippet>

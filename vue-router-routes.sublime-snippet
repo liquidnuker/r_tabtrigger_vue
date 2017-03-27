@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+const routes = [{
+  path: '/',
+  component: Home
+}, {
+  path: '/about',
+  component: About
+}];
+
+const router = new VueRouter({
+  routes
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-router-routes</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue router instance</description>
+  <scope>source.js, source.vue</scope>
+</snippet>
