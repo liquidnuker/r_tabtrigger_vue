@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+beforeCreate: function () {
+  ${1:console.log("beforeCreate");}
+},
+created: function () {
+  ${1:console.log("created");}
+},
+beforeUpdate: function () {
+  ${1:console.log("beforeUpdate");}
+},
+updated: function () {
+  ${1:console.log("updated");}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-cycle-hooks</tabTrigger>
+  <description>vue beforeCreate,updated...</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.vue, source.js</scope>
+</snippet>
