@@ -4,13 +4,13 @@ beforeCreate: function () {
   ${1:console.log("beforeCreate");}
 },
 created: function () {
-  ${1:console.log("created");}
+  ${2:console.log("created");}
 },
 beforeUpdate: function () {
-  ${1:console.log("beforeUpdate");}
+  ${3:console.log("beforeUpdate");}
 },
 updated: function () {
-  ${1:console.log("updated");}
+  ${4:console.log("updated");}
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
