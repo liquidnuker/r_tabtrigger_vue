@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-v-for="${1:items} in ${2:todos}"
+v-for="${1:i} in ${2:todos}"
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>v-for</tabTrigger>
