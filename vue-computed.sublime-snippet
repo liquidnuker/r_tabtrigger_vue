@@ -2,7 +2,7 @@
   <content><![CDATA[
 computed: {
   ${1:message}: function () {
-    return ${2:};
+    ${2:return };
   }
 }
 ]]></content>
