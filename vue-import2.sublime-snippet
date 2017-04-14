@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-import ${1:} from '${2:}'
+import ${1:\{${2:}\}} from "${3:}";
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>vue-import2</tabTrigger>
