@@ -11,6 +11,9 @@ beforeUpdate: function () {
 },
 updated: function () {
   ${4:console.log("updated");}
+},
+mounted: function () {
+  ${5:console.log("mounted");}
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
