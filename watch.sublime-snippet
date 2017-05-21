@@ -1,14 +1,14 @@
 <snippet>
   <content><![CDATA[
-computed: {
-  ${1:message}: function () {
+watch: {
+  ${1:\$route}: function () {
     
   }
 }
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>vue-computed</tabTrigger>
-  <description>vue computed: {...</description>
+  <tabTrigger>vue-watch</tabTrigger>
+  <description>watch: {...</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js, source.vue</scope>
+  <scope>source.vue, source.js</scope>
 </snippet>
