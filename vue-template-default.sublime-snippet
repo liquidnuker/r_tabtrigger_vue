@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  <div>
+    ${2:}
+  </div>
+</template>
+<script>
+export default {
+  data () {
+    return {   
+
+    }
+  },
+  watch: {
+  // $route: function () {
+  // }
+  },
+  props: [
+    "prName1"
+  ],
+  components: {
+  },
+  mounted: function () {
+    console.log("${1:} mounted");
+  },
+  methods: {        
+  }
+}
+</script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vt</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>vue &lt;template&lt;</description>
+  <scope></scope>
+</snippet>
