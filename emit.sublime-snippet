@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+this.$emit('${1:clicked}'${3:, '${2:param}'});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue-emit</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>$emit(child to parent)</description>
+  <scope>source.vue, source.js</scope>
+</snippet>
