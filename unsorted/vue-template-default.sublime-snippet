@@ -22,7 +22,7 @@ export default {
   components: {
   },
   mounted: function () {
-    console.log("${1:} mounted");
+    console.log("${1:}.vue mounted");
   },
   methods: {        
   }
