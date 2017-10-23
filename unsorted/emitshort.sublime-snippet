@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-this.$emit('${1:clicked}'${3:, '${2:param}'});
+this.\$emit('${1:clicked}'${3:, '${2:param}'});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>emit</tabTrigger>
