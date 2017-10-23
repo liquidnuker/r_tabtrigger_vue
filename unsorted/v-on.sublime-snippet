@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-v-on:${1:click}="${2:fName}"
+@${1:click}="${2:fName}"
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>v-on</tabTrigger>

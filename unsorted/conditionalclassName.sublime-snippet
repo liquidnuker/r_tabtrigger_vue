@@ -6,5 +6,5 @@
   <tabTrigger>class-cond</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <description>conditional class="{active: isActive}"</description>
-  <scope>source.vue</scope>
+  <scope>source.vue, text.html</scope>
 </snippet>
